@@ -1,0 +1,38 @@
+.header {
+    background-color: #ffffff;
+    box-shadow: none;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #007bff;
+    font-weight: bold;
+    flex-grow: 1;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fadeIn 0.5s forwardsl;
+}
+
+.nav-button{
+    margin-left: 15px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+}
+
+.nav-button:hover {
+    color: #007bff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
