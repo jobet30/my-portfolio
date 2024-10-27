@@ -2,19 +2,22 @@
     background-color: #ffffff;
     box-shadow: none;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    color: #007bff;
+    color: #000000;
     font-weight: bold;
     flex-grow: 1;
     opacity: 0;
     transform: translateY(-10px);
-    animation: fadeIn 0.5s forwardsl;
+    animation: fadeIn 0.5s forwards;
+    margin-right: auto;
 }
 
-.nav-button{
-    margin-left: 15px;
+.nav-button {
+    margin: 0 20px;
     color: #333;
     text-transform: uppercase;
     font-weight: 500;

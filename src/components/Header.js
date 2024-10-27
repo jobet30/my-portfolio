@@ -1,16 +1,16 @@
 import React from 'react';
-import  AppBar  from '@mui/material/AppBar';
+import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import  Button  from '@mui/material/Button';
+import Button from '@mui/material/Button';
 import { Box } from '@mui/material';
 import './styles/Header.css';
 
 const Header = () => {
-    return(
+    return (
         <AppBar position="static" className="header">
             <Toolbar>
-                <Typography variant='h6' className='logo'>
+                <Typography variant="h6" className="logo">
                     Jobet
                 </Typography>
                 <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'flex-end' }}>
@@ -29,7 +29,7 @@ const Header = () => {
                 </Box>
             </Toolbar>
         </AppBar>
-    )
-}
+    );
+};
 
 export default Header;
